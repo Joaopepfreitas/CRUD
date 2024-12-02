@@ -1,0 +1,62 @@
+body.dark {
+    background-color: #121212;
+    color: white;
+  }
+  
+  body.dark .container {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  body.dark .header span {
+    color: #e0e0e0;
+  }
+  
+  body.dark #new {
+    background-color: #bb86fc;
+  }
+  
+  body.dark thead {
+    background-color: #2c2c2c;
+  }
+  
+  body.dark tr {
+    border-bottom: 1px solid #333;
+  }
+  
+  body.dark .modal {
+    background-color: #2c2c2c;
+    color: white;
+  }
+  .theme-toggle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+  }
+  
+  #theme-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(57, 57, 226);
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #theme-button:hover {
+    background-color: rgb(45, 45, 180);
+  }
+  #theme-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#theme-button img {
+  width: 20px;
+  height: 20px;
+}
